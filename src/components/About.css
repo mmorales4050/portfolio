@@ -1,0 +1,39 @@
+.about-container {
+  display: block;
+
+}
+
+.about-content {
+  max-width: 95rem;
+  margin: 0 auto;
+}
+
+.about-content:after {
+  content: "";
+    display: table;
+    clear: both;
+}
+
+#content-1 {
+  margin-right: 3rem;
+  width: calc((100% - 5rem) / 2);
+  float: left;
+}
+
+#content-2 {
+
+}
+
+.about-header {
+  margin-bottom: 8rem;
+  font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, #64495E, #4C5F9A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    transition: all .2s;
+}

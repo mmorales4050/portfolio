@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/gearbox-static.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Miguel Morales | Front End Engineer</title>
+</head>
+
+<body>
+    <!-- preload -->
+    <div class="header-img">
+        <img style="display: none;" src="img/city.jpg" alt="">
+    </div>
+
+    <header class="header">
+        <div class="header__logo-box">
+            <img src="img/logo-white.png" alt="Miguel" class="header__logo">
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Miguel Morales</span>
+                <span class="heading-primary--sub">Front End Engineer</span>
+            </h1>
+
+            <a href="#projects" class="btn btn--white btn--animated smooth-goto">See Projects</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-about">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Front End Focused
+                    <br>With Full Stack Experience
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-1-of-2">
+                    <h3 class="heading-tertiary u-margin-bottom-small">Motivated To Produce Results</h3>
+                    <p class="paragraph">
+                        As a tenacious self-taught programmer, I use continuous iteration to produce results quickly and continuously improve products.
+                    </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">An Agile Collaborator</h3>
+                    <p class="paragraph">
+                        I have contributed to open source projects, worked on engineering teams, and always stay attuned to the newest frameworks.
+                    </p>
+
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="img/javascript.png" alt="JS" class="composition__photo composition__photo--p1">
+                        <img src="img/rails.png" alt="Rails" class="composition__photo composition__photo--p3">
+                        <img src="img/react.png" alt="React" class="composition__photo composition__photo--p2">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-features">
+            <div class="row">
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-webpage"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Front End</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>React | Redux</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-1-of-4">
+                    <div class="feature-box">
+                        <i class="feature-box__icon icon-basic-share"></i>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Server</h3>
+                        <p class="feature-box__text">
+                            <ul>
+                                <li>Ruby on Rails</li>
+                                <li>Sinatra</li>
+                                <li>Rack</li>
+                                <li>Python</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- Other Section Features Here -->
+            </div>
+        </section>
+
+        <section class="section-tours" id="projects">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Project Portfolio
+                </h2>
+            </div>
+            <!-- Project Cards Here -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <a href="#top">
+                <img src="img/logo-white.png" alt="Logo" class="footer__logo smooth-goto">
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="https://github.com/mmorales4050/" class="footer__link">GitHub</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://www.linkedin.com/in/miguel-morales-44n" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Site by
+                    <a href=# class="footer__link"> Miguel Morales </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+  <!-- Popups Here   -->
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $('.smooth-goto').on('click', function () {
+            $('html, body').animate({
+                scrollTop: $(this.hash).offset().top + 50
+            }, 1000);
+        });
+
+    $(document).ready(function(){
+        $('.popup__img').css('visibility', 'visible');
+    })
+</script>
+
+</html>

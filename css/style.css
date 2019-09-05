@@ -401,15 +401,15 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #eca026, rgba(185, 19, 19, 0.911)), url(../img/gears.png); }
+      background-image: linear-gradient(to right bottom, #eca026, rgba(185, 19, 19, 0.911)), url(../img/crowd.jpg); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #9c1283, #aa2b15), url(../img/flames.png); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #44b2e6, #05044d), url(../img/chatbg.png); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, #6b330e, #978f1c), url(../img/food.png); }
+      background-image: linear-gradient(to right bottom, #6b330e, #978f1c), url(../img/castle.jpeg); }
     .card__picture--5 {
-      background-image: linear-gradient(to right bottom, #396b2a, #1b2e21), url(../img/dollar.jpg); }
+      background-image: linear-gradient(to right bottom, #396b2a, #1b2e21), url(../img/snake.jpeg); }
     .card__picture--6 {
       background-image: linear-gradient(to right bottom, #838383, #2e2e2e), url(../img/office-hall.jpg); }
   .card__heading {

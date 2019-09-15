@@ -583,7 +583,7 @@ body {
   .popup__text {
     font-size: 1.4rem; }
   .popup__header-2 {
-    background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
+    background-image: linear-gradient(to right bottom, #eca026, rgba(185, 19, 19, 0.911));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent; }
@@ -591,7 +591,7 @@ body {
       transform: skewX(2deg) skewY(1deg);
       text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2); }
   .popup__btn-2 {
-    background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
+    background-image: linear-gradient(to right bottom, #eca026, rgba(185, 19, 19, 0.911));
     color: white; }
   .popup__header-3 {
     background-image: linear-gradient(to right bottom, #44b2e6, #05044d);
